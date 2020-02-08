@@ -1,0 +1,7 @@
+from .vector import Vector2
+
+DT = 1.0 / 60.0
+EPSILON = 0.0001
+GRAVITY_SCALE = 5.0
+MAXPOLY_VERTEXCOUNT = 64
+GRAVITY = Vector2(0, 10.0 * GRAVITY_SCALE)
